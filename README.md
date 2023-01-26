@@ -16,3 +16,9 @@ git clone --branch final_official_2.50 https://github.com/WiringPi/WiringPi.git 
 cd ~/wiringPi
 ./build
 ```
+
+## Setting up the RTC
+https://learn.adafruit.com/adding-a-real-time-clock-to-raspberry-pi/set-rtc-time
+
+## Setting Time 
+https://github.com/mi3nts/instructables/blob/master/linux/timeZoneSet.md
