@@ -22,3 +22,12 @@ https://learn.adafruit.com/adding-a-real-time-clock-to-raspberry-pi/set-rtc-time
 
 ## Setting Time 
 https://github.com/mi3nts/instructables/blob/master/linux/timeZoneSet.md
+
+## Getting the Serial Port to work 
+To manually change the settings, edit the kernel command line with sudo nano /boot/cmdline.txt. Find the console entry that refers to the serial0 device, and remove it, including the baud rate setting. It will look something like console=serial0,115200. Make sure the rest of the line remains the same, as errors in this configuration can stop the Raspberry Pi from booting."
+
+## 
+
+
+
+
