@@ -1,0 +1,4 @@
+@reboot cd /home/teamlary/gitHubRepos/minWeNodes/firmware/xu4Mqtt && ./runAll.sh 
+*/5 * * * * cd /home/teamlary/gitHubRepos/minWeNodes/firmware/xu4Mqtt && python3 deleter.py
+
+

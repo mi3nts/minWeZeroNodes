@@ -1,0 +1,4 @@
+@reboot cd /home/teamlary/gitHubRepos/minWeNodes/firmware/xu4Mqtt && ./runAllN2.sh 
+*/5 * * * * cd /home/teamlary/gitHubRepos/minWeNodes/firmware/xu4Mqtt && python3 deleterStation.py
+rsync -avzrtu -e "ssh -p 2222" /home/teamlary/mintsData/raw/ mints@mintsdata.utdallas.edu:raw
+
