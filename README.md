@@ -33,7 +33,7 @@ And connect the secondary I2C devices to gpio pins 23(16) and 24(18).
 
 **Note:GPIO pins are not header numbers**
 
-The pin diagrams for the rasbery pi zero are given below
+The pin diagrams for the rasbery pi zero are given below:
 <img src="https://raw.githubusercontent.com/mi3nts/minWeZeroNodes/main/res/Raspberry-PI-Zero-Pinout-schema.jpg.webp"
      alt="Rasberry Pi Zero Pin Outs"
      style="float: left; margin-right: 10px;" />
