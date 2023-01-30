@@ -31,6 +31,8 @@ On the to /boot/config.txt add the following lines
 `dtoverlay=i2c-gpio,bus=4,i2c_gpio_delay_us=1,i2c_gpio_sda=23,i2c_gpio_scl=24`
 And connect the secondary I2C devices to gpio pins 23(16) and 24(18). 
 
+Inspired by this [link](https://www.instructables.com/Raspberry-PI-Multiple-I2c-Devices/) 
+
 **Note:GPIO pins are not header numbers**
 
 The pin diagrams for the rasbery pi zero are given below:
@@ -39,7 +41,13 @@ The pin diagrams for the rasbery pi zero are given below:
      style="float: left; margin-right: 10px;" />
 
 
+## Installing BME280 Library for Rasbery pi 
+```pip3 install RPi.bme280``` (Not pip3 install bme280)
 
 
+## Data Sheet links 
+* [SCD30](https://sensirion.com/media/documents/4EAF6AF8/61652C3C/Sensirion_CO2_Sensors_SCD30_Datasheet.pdf)
+* [BME280: 1](https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf)
+* [BME280: 2](https://learn.adafruit.com/adafruit-bme280-humidity-barometric-pressure-temperature-sensor-breakout/downloads)
 
 
