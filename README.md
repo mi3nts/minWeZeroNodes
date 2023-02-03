@@ -50,4 +50,5 @@ The pin diagrams for the rasbery pi zero are given below:
 * [BME280: 1](https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf)
 * [BME280: 2](https://learn.adafruit.com/adafruit-bme280-humidity-barometric-pressure-temperature-sensor-breakout/downloads)
 
-
+## Network Setup 
+https://www.youtube.com/watch?v=hhELDJHRz_0&t=606s
