@@ -56,3 +56,12 @@ https://www.youtube.com/watch?v=hhELDJHRz_0&t=606s
 
 ## OTA updates 
 ``` curl https://cdn.pisugar.com/release/PiSugarUpdate.sh | sudo bash```
+
+## GPS Updates 
+```
+  pip3 install adafruit-circuitpython-gps
+  pip3 install adafruit-extended-bus
+```
+
+
+
