@@ -52,3 +52,7 @@ The pin diagrams for the rasbery pi zero are given below:
 
 ## Network Setup 
 https://www.youtube.com/watch?v=hhELDJHRz_0&t=606s
+
+
+## OTA updates 
+``` curl https://cdn.pisugar.com/release/PiSugarUpdate.sh | sudo bash```
